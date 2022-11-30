@@ -74,8 +74,8 @@ a {
   gap: 0.5em;
   align-items: center;
   flex-direction: column;
-  margin: 1rem;
-  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
   color: #f5ebe0;
 }
 
@@ -126,4 +126,11 @@ a {
 a {
   color: white;
   text-decoration: none;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  margin-top: 3em;
+  text-align: center;
 }
