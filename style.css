@@ -30,7 +30,7 @@ body {
 h1 {
   font-size: 3em;
   color: #f5ebe0;
-  margin-top: 0.5em;
+  margin: 0.5em auto;
 }
 
 input {
@@ -45,7 +45,8 @@ input:focus {
   background-color: #ffcdb2;
 }
 
-button {
+.game-start-btn,
+.game-restart-btn {
   width: 80%;
   line-height: 2em;
   background-color: #e5989b;
@@ -69,8 +70,12 @@ a {
 }
 
 .score-display-container {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  flex-direction: column;
   margin: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #f5ebe0;
 }
 
@@ -112,4 +117,13 @@ a {
 
 .selectedCard {
   transform: rotateY(180deg);
+}
+
+.game-restart-btn {
+  visibility: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
