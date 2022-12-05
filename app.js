@@ -176,13 +176,13 @@ function updateScores() {
  function displayWinner(){
     if (players[0].score + players[1].score == cardsArray.length / 2) {
         if (players[0].score > players[1].score) {
-            header.innerText =`${players[0].name} wins!`;
+            header.innerText =`${players[0].name} vann!`;
             restartGame();
          } else if (players[0].score < players[1].score){
-            header.innerText =`${players[1].name} wins!`;
+            header.innerText =`${players[1].name} vann!`;
             restartGame();
          } else {
-            header.innerText = "Draw!";
+            header.innerText = "Oavgjort!";
             restartGame();
          } 
     }
