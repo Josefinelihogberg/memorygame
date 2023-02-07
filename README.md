@@ -6,7 +6,7 @@ Group 3:
 
 * Erica Eklund
 
-Copyright: All the pictures in this game is made by Freepik from www.flaticon.com.
+***Copyright***: All the pictures in this game is made by Freepik from www.flaticon.com.
 
 Welcome to experience the game online:
 
